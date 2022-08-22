@@ -2,5 +2,7 @@ console.log('This is your First JavaScript'); // Console.log() is Used to Print 
 
 // variable are Used to Store  a value. and it is similar to the container used to store the data value like rice , water ,milks and etc
 
-let a =15;
+let a =15; // a contains 15
 console.log(a);
+a = 'Akki';
+console.log(a) // print String
