@@ -30,8 +30,44 @@ console.log(m, n, o, p)
 
 
 // const
-
+// we cannot change the const value and cannot use 
 const name = 'Cant be changed';
 let name_1 = 'Ramdeni';
 
 console.log(name, name_1)
+
+
+// primitives and Objects in javascripts
+
+// primitives datatypes are 7types  in javascript
+// and these Primitives datatypes are Fundamental datatypes and these Datatypes are build-in inside the Javasccript 
+
+// nn = null and number
+// ss = sybmol and String
+// bb= bigint and boolean
+// u - Undefined
+
+let a1 = null;
+let b2 = 1234;
+let c3 = BigInt("12354");
+let d4 = "Akki";
+let e5 = Symbol("I am a Symbol")
+let f6 = undefined;
+console.log(a1, b2, c3, d4, e5, f6)
+
+
+// and we can Check it typeof what type of datatype it is
+
+console.log(typeof d4)
+
+
+// mon  primitives datatypes objects in javascripts
+
+const item = {
+	'Akshith': true,
+	'Julie': true,
+	'princess': null,
+	'dark': undefined,
+}
+
+console.log(item['Akshith'])
