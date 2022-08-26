@@ -71,3 +71,33 @@ const item = {
 }
 
 console.log(item['Akshith'])
+
+
+// Assigment 1
+// problem 1
+let a12 = 'Akshith';
+let b12 = 40111035;
+console.log(a12 + ' ' + b12)
+
+//
+//problem 2 
+
+
+
+
+
+/// operator in javascript
+
+
+console.log("Operators in javascript");
+
+
+let kl = 2;
+let ml = 4;
+
+console.log("kl + ml is:  " + kl+ml)
+console.log("kl -ml is:  " + kl - ml)
+console.log("kl / ml is:  " + kl / ml)
+console.log("kl * ml is:  " + kl * ml)
+console.log("kl % ml is:  " + kl % ml)
+
